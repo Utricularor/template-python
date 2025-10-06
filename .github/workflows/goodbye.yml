@@ -1,0 +1,7 @@
+name: Goodbye
+on: push
+jobs:
+  goodbye:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Goodbye, world!"
